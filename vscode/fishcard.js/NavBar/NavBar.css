@@ -1,0 +1,11 @@
+.navcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0 20px;
+    background: lightcyan;
+    border-bottom: 1px solid teal;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+  }

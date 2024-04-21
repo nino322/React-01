@@ -1,0 +1,85 @@
+span {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  h3 {
+    padding: 5px;
+    background: lightcyan;
+    border-radius: 10px;
+    color: teal;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  p {
+    padding: 10px;
+    font-size: 0.8vw;
+  }
+  
+  .card {
+    padding: 8px;
+    margin: 16px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px gray;
+  }
+  
+  img {
+    width: 270px;
+    height: 120px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .show-button {
+    position: absolute;
+    background-color: #fff;
+    color: teal;
+    border: 1px solid teal;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .show-button:hover {
+    box-shadow: 10px 5px 5px teal;
+  }
+  
+  .like-button {
+    border: 1px solid seagreen;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 45px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .like-button:hover {
+    box-shadow: 5px 3px 3px seagreen;
+  }
+  
+  .unlike-button {
+    border: 1px solid red;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 90px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .unlike-button:hover {
+    box-shadow: 5px 3px 3px red;
+  }
